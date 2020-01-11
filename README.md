@@ -28,7 +28,7 @@ Steps to install the requirements:
 2) install breach tool box which is provided as breach-master in the repo
 
 * hint: there were a few bugs in the original breach toolbox the I resolved in breach-master folder. If you download and install breach from https://github.com/decyphir/breach,
-You might get some errors. Hence, I highly recommend installing the provided breach-master folder in RE_HSCC folder. 
+You might get some errors. Hence, I highly recommend installing the provided breach-master folder in repo. 
 
 How to install breach:
 1) breach requires a C/C++ compiler. For windows 64 bits, You can install the freely available MinGW-w64 C/C++ compiler in Matlab add -ons. For Mac, you need to install Xcode. More info can be found here: https://www.mathworks.com/support/requirements/supported-compilers.html. You can use mex -setup command to set up the compiler.
@@ -86,7 +86,7 @@ steps to run:
 
 steps to run: 
 
-1) open /RE_HSCC/experiments/PID_controller/main.m
+1) open /experiments/PID_controller/main.m
 2) Modify cd (change directory) command in the code (line12) based on your platform. It should point to "/EnumerativeSolver".
 3) run main.m
 4) you will see figure 7 and the results reported in the description of "PID controller case study" in Matlab command window. (hint: the reported execution time might be different due to using a different platform)
