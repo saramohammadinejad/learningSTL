@@ -25,7 +25,7 @@ First, you should install the requirements. If you encountered any issues in thi
 Steps to install the requirements:
 
 1) install Matlab R2018B with Simulink and Communications toolbox
-2) install breach tool box which is provided as breach-master in RE_HSCC folder
+2) install breach tool box which is provided as breach-master in the repo
 
 * hint: there were a few bugs in the original breach toolbox the I resolved in breach-master folder. If you download and install breach from https://github.com/decyphir/breach,
 You might get some errors. Hence, I highly recommend installing the provided breach-master folder in RE_HSCC folder. 
@@ -41,12 +41,12 @@ How to install breach:
 When installation is done, you can run main codes in provided folders to see the results and figures provided in the paper:
 
 ----------------------------------------------------------------------------------------
-* go to "/RE_HSCC/experiments/Maritime_surveillance/" directory
+* go to "/experiments/Maritime_surveillance/" directory
 
 steps to run: 
 
 1) open main_green1.m
-2) Modify cd (change directory) commands in the code (lines 10 and 15) based on your platform. Line 10 should point to "/RE_HSCC/experiments/Maritime_surveillance/data", and line 15 should point to "/RE_HSCC/EnumerativeSolver".
+2) Modify cd (change directory) commands in the code (lines 10 and 15) based on your platform. Line 10 should point to "/experiments/Maritime_surveillance/data", and line 15 should point to "/EnumerativeSolver".
 3) run main_green1.m
 4) you will see figure 4 and some of the results reported in the description of " Maritime surveillance case study" in Matlab command window.(hint1: the reported execution time might be different due to using a different platform hint2: this code takes a long time to run (around 1 hours))
 
@@ -62,32 +62,32 @@ steps to run:
 12) you will see some of the results reported in the description of " Maritime surveillance case study" in Matlab command window.(hint: the reported execution time might be different due to using a different platform)
 
 ----------------------------------------------------------------------------------------
-* go to "/RE_HSCC/experiments/linear_system/" directory
+* go to "/experiments/linear_system/" directory
 
 steps to run: 
 
 1) open main.m
-2) Modify cd (change directory) command in the code (line40) based on your platform. It should point to "/RE_HSCC/EnumerativeSolver".
+2) Modify cd (change directory) command in the code (line40) based on your platform. It should point to "/EnumerativeSolver".
 3) run main.m
 4) you will see figure 5 and the results reported in the description of "linear systems case study" in Matlab command window. I highlighted the results in the paper.pdf (hint: the reported execution time might be different due to using a different platform)
 
 ---------------------------------------------------------------------------------------
-* go to "/RE_HSCC/experiments/cruise_control_train/" directory
+* go to "/experiments/cruise_control_train/" directory
 
 steps to run: 
 
-1) open /RE_HSCC/experiments/cruise_control_train/main.m
-2) Modify cd (change directory) command in the code (line81) based on your platform. It should point to "/RE_HSCC/EnumerativeSolver".
+1) open /experiments/cruise_control_train/main.m
+2) Modify cd (change directory) command in the code (line81) based on your platform. It should point to "/EnumerativeSolver".
 3) run main.m
 4) you will see figure 6 and the results reported in the description of "cruise control of train case study" in Matlab command window. (hint: the reported execution time might be different due to using a different platform)
 
 ---------------------------------------------------------------------------------------
-* go to "/RE_HSCC/experiments/PID_controller/" directory
+* go to "/experiments/PID_controller/" directory
 
 steps to run: 
 
 1) open /RE_HSCC/experiments/PID_controller/main.m
-2) Modify cd (change directory) command in the code (line12) based on your platform. It should point to "/RE_HSCC/EnumerativeSolver".
+2) Modify cd (change directory) command in the code (line12) based on your platform. It should point to "/EnumerativeSolver".
 3) run main.m
 4) you will see figure 7 and the results reported in the description of "PID controller case study" in Matlab command window. (hint: the reported execution time might be different due to using a different platform)
 
