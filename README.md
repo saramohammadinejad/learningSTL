@@ -1,6 +1,3 @@
-# learningSTL
-Interpretable Classification of Time-Series Data using Eﬀicient Enumerative Techniques
-
 This directory contains code to recreate the examples from
 
 Sara Mohammadinejad, Jyotirmoy V. Deshmukh, Aniruddh G. Puranic, Marcell Vazquez-Chanlatte, Alexandre Donzé, "Interpretable Classification of Time-Series Data using Efficient Enumerative Techniques," in Hybrid Systems Computational & Control, ACM (2020).
