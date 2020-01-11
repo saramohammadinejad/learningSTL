@@ -92,14 +92,6 @@ steps to run:
 4) you will see figure 7 and the results reported in the description of "PID controller case study" in Matlab command window. (hint: the reported execution time might be different due to using a different platform)
 
 ---------------------------------------------------------------------------------------
-
-Final hints:
-
-1) Figure 3 is a synthetic example drawn in powerpoint to explain a technique from a previous work. That's why I didn't provide instruction to reproduce it. Figure 1 and 2 takes a long time to generate (around 1 day). Based on discussions we had with RE PC, long execution time is a problem to check reproducibility. That's why we didn't provide instructions to reproduce those figures. 
-
-2) Data reported in table1 is a summary of results obtained in above case studies (that I provided instructions to run each of them individually). That's why I didn't provide instruction to reproduce it again.
-
-
 Questions and bug reports (and any examples of the use of this technique on other problems) can be send to saramoha@usc.edu.
 
 Sara Mohammadinejad 
