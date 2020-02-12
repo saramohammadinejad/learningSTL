@@ -93,3 +93,12 @@ Questions and bug reports (and any examples of the use of this technique on othe
 
 Sara Mohammadinejad 
 January 2020
+
+citation info:
+
+@article{mohammadinejad2019interpretable,
+  title={Interpretable Classification of Time-Series Data using Efficient Enumerative Techniques},
+  author={Mohammadinejad, Sara and Deshmukh, Jyotirmoy V and Puranic, Aniruddh G and Vazquez-Chanlatte, Marcell and Donz{\'e}, Alexandre},
+  journal={arXiv preprint arXiv:1907.10265},
+  year={2019}
+}
